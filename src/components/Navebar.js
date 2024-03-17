@@ -31,7 +31,7 @@ export default class home extends Component {
   <div className="offcanvas-body">
     <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
       <li className="nav-item">
-        <Link className="nav-link active" aria-current="page" to="#">Home</Link>
+        <Link className="nav-link active" aria-current="page" to="/Home">Home</Link>
       </li>
       <li className="nav-item">
         <Link className="nav-link" to="#">About Us</Link>
@@ -40,7 +40,7 @@ export default class home extends Component {
         <Link className="nav-link" to="#">Jobs</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="#">Contact Us</Link>
+        <Link className="nav-link" to="/ContactUs">Contact Us</Link>
       </li>
     </ul>
   </div>

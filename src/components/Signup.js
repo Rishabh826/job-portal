@@ -11,9 +11,9 @@ export default class Signup extends Component {
               <img src="https://previews.123rf.com/images/3dmask/3dmask2103/3dmask210300054/167136936-3d-cartoon-man-working-on-laptop-illustration-isolated-on-white-background.jpg" alt="Signup" className="img-fluid" style={{ height: '100vh', width: '100%' }} />
             </div>
         
-            <div className="col-md-6" style={{backgroundColor:'white', border: '1px solid black', borderRadius: '10px'}}>
+            <div className="col-md-6" >
               <div className="card rotate" style={{ backgroundColor: 'white', backdropFilter: 'blur(2px)', color: 'black', border: 'none' }}>
-                <div className="login-title text-center font-weight-bold" style={{ marginTop: '20px' }}><h3>Sign up</h3></div>
+                <div className="login-title text-center font-weight-bold" style={{ marginTop: '20px',marginRight:'120px' }}><h3>Sign up</h3></div>
                 <form>
                   <div className="form-group mx-3">
                     <label><strong>Full name</strong></label>
