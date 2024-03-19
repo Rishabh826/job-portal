@@ -5,9 +5,9 @@ export default class home extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-dark  fixed-top" style={{backgroundImage:'url(https://t4.ftcdn.net/jpg/00/69/42/49/360_F_69424905_vxTpRGAcVKni9157VpKAOG6MpTX30etl.jpg)'}}>
+        <nav className="navbar navbar-dark  fixed-top" style={{backgroundColor:'green'}}>
   <div className="container-fluid">
-    <a className="navbar-brand" to="/" style={{fontSize:'30px'}}><strong>Rishabh Job Portal</strong></a>
+    <Link className="navbar-brand" to="/" style={{fontSize:'30px'}}><strong>Vyavasay.com</strong></Link>
     <div className="d-flex justify-content-end flex-grow-1" >
 <div style={{color:'white', fontSize:'35px', paddingRight:'40px'}} type="button">
 <Link className="nav-link" to="/Ioperson">
@@ -15,10 +15,7 @@ export default class home extends Component {
               </Link>
 
 </div>
-    <form className="d-flex mt-2" role="search" style={{paddingRight:'20px'}} >
-          <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-          <button className="btn btn-success" type="submit">Search</button>
-        </form>
+    
         </div>
         <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
   <span className="navbar-toggler-icon"></span>

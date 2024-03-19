@@ -8,7 +8,7 @@ import { FaXTwitter } from "react-icons/fa6";
 export default class Login extends Component {
   render() {
     return (
-      <div className='bg-dark' style={{ border: '2px solid white', backgroundImage: 'url(https://news.microsoft.com/wp-content/uploads/prod/sites/133/2019/02/Batch-2_4-960x560.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <div className='bg-dark' style={{ border: '2px solid white', backgroundImage: 'url(https://news.microsoft.com/wp-content/uploads/prod/sites/133/2019/02/Batch-2_4-960x560.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' ,marginTop:'2rem'}}>
         <div className="p-3 mb-2 text-dark" style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           <div className="login-container" style={{ borderRadius: '20px', width: '90%', maxWidth: '420px', borderWidth: '2px', borderColor: 'white', borderStyle: 'solid', backdropFilter: 'blur(10px)',paddingTop:'40px' }}>
             <div className="card bg-transparent card-blur" style={{ padding: '20px' }}>
