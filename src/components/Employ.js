@@ -4,22 +4,23 @@ export default class Employ extends Component {
   render() {
     return (
       
-        <div className="d-flex flex-column mb-3" >
-          <div className="p-2">
-            <nav className="navbar bg-primary">
-              <div className="container-fluid">
-                <a className="navbar-brand" href="/" style={{ marginLeft: '10px' }}>
-                  <img src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1395991368.1711497600&semt=sph" alt="Logo" width="30" height="24" className="d-inline-block align-text-top" />
-                  <span style={{ marginLeft: '10px' }}>POST A JOB</span>
-                </a>
-                <div className="d-flex">
-                  <button type="button" className="btn btn-light me-2">Save</button>
-                  <a href="/" className="btn btn-light">Home</a>
-                </div>
+      <div className="container-fluid" style={{ overflowY: 'scroll', height: '100vh' }}>
+      <div className="d-flex flex-column mb-3">
+        <div className="p-2">
+          <nav className="navbar bg-primary">
+            <div className="container-fluid">
+              <a className="navbar-brand" href="/" style={{ marginLeft: '10px' }}>
+                <img src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1395991368.1711497600&semt=sph" alt="Logo" width="30" height="24" className="d-inline-block align-text-top" />
+                <span style={{ marginLeft: '10px' }}>POST A JOB</span>
+              </a>
+              <div className="d-flex">
+                <button type="button" className="btn btn-light me-2">Save</button>
+                <a href="/" className="btn btn-light">Home</a>
               </div>
-            </nav>
+            </div>
+          </nav>
 
-            <form className="container mt-4">
+          <form className="container mt-4">
               <div className="row g-3">
                 <div className="col-md-4">
                   <label htmlFor="validationDefault01" className="form-label">Job Title:</label>
@@ -83,7 +84,7 @@ export default class Employ extends Component {
             </form>
 
             <div className="container mt-4">
-              <h4 className="text-center mb-4" style={{marginRight:'9rem'}}>Location Information</h4>
+              <h4 className="text-center mb-4" style={{ marginRight: '9rem' }}>Location Information</h4>
               <div className="row justify-content-center">
                 <div className="col-md-6">
                   <label htmlFor="validationDefault04" className="form-label" >Location</label>
@@ -112,7 +113,7 @@ export default class Employ extends Component {
             <hr />
 
             <div className="container mt-4">
-              <h4 className="text-center mb-4" style={{marginRight:'9rem'}}>Job Details</h4>
+              <h4 className="text-center mb-4" style={{ marginRight: '9rem' }}>Job Details</h4>
               <div className="input-group mb-3">
                 <span className="input-group-text" style={{backgroundColor:'blueviolet'}}>Job Details</span>
                 <textarea className="form-control" aria-label="With textarea"></textarea>
@@ -133,45 +134,45 @@ export default class Employ extends Component {
                 <textarea className="form-control" aria-label="With textarea"></textarea>
               </div>
               <div className="container">
-  <div className="row" >
-    <div className="col">
-      <div className="form-group">
-        <label htmlFor="publishedOn">Published on</label>
-        <input
-          type="date"
-          id="publishedOn"
-          name="publishedOn"
-          style={{width:'18rem'}}
-          className="form-control"
-          onChange={(e) => console.log(e.target.value)} // You can handle the change event to get the selected date
-        />
-      </div>
-    </div>
-    <div className="col" >
-      <div className="form-group">
-        <label htmlFor="deadline">Deadline</label>
-        <input
-          type="date"
-          id="deadline"
-          style={{width:'18rem'}}
-          name="deadline"
-          className="form-control"
-          onChange={(e) => console.log(e.target.value)} // You can handle the change event to get the selected date
-        />
-      </div>
-    </div>
-  </div>
-</div>
-
+              <div className="row">
+                <div className="col">
+                  <div className="form-group">
+                    <label htmlFor="publishedOn">Published on</label>
+                    <input
+                      type="date"
+                      id="publishedOn"
+                      name="publishedOn"
+                      style={{ width: '100%' }}
+                      className="form-control"
+                      onChange={(e) => console.log(e.target.value)} // You can handle the change event to get the selected date
+                    />
+                  </div>
+                </div>
+                <div className="col">
+                  <div className="form-group">
+                    <label htmlFor="deadline">Deadline</label>
+                    <input
+                      type="date"
+                      id="deadline"
+                      name="deadline"
+                      style={{ width: '100%' }}
+                      className="form-control"
+                      onChange={(e) => console.log(e.target.value)} // You can handle the change event to get the selected date
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
+
           </div>
-           <footer className="footer mt-auto py-3 bg-purple" >
-      <div className="container text-center" >
-        <span className="text-muted">2024 @Vyavasay</span>
-      </div>
-    </footer>
         </div>
-      
+        <footer className="footer mt-auto py-3 bg-purple text-center">
+          <div className="container">
+            <span className="text-muted">2024 @Vyavasay</span>
+          </div>
+        </footer>
+      </div>
+      </div>
     );
   }
 }
