@@ -5,9 +5,9 @@ export default class home extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-dark  fixed-top" style={{backgroundColor:'green'}}>
+        <nav className="navbar navbar-dark  fixed-top" style={{background:'linear-gradient(30deg,rgb(13,153,181),rgb(8,210,250))'}}>
   <div className="container-fluid">
-    <Link className="navbar-brand" to="/" style={{fontSize:'30px'}}><strong>Vyavasay.com</strong></Link>
+    <Link className="navbar-brand" to="/" style={{fontSize:'30px'}}><strong>JobHunting.com</strong></Link>
     <div className="d-flex justify-content-end flex-grow-1" >
 <div style={{color:'white', fontSize:'35px', paddingRight:'40px'}} type="button">
 <Link className="nav-link" to="/Ioperson">
