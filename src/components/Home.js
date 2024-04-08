@@ -10,6 +10,10 @@ import { SiCodingninjas } from "react-icons/si";
 import { FaBookMedical } from "react-icons/fa";
 import { GoProjectSymlink } from "react-icons/go";
 import { GiSkills } from "react-icons/gi";
+import { FaSearch } from "react-icons/fa";
+import { GiSandsOfTime } from "react-icons/gi";
+import { IoIosBed } from "react-icons/io";
+import { MdOutlineMapsHomeWork } from "react-icons/md";
 export default class Home extends Component {
   render() {
     return (
@@ -189,7 +193,7 @@ export default class Home extends Component {
 
 
 
-        <div className="p-2">
+        <div className="p-2" style={{marginTop:'4rem'}}>
   <div className="d-flex justify-content-start">
     <strong><h1 style={{ marginLeft: '5rem', marginTop: '2rem' }}>Practice Coding & Ace Hiring Assessments </h1></strong>
   </div>
@@ -239,6 +243,48 @@ export default class Home extends Component {
 </div>
 
 
+
+
+<div className="p-2">
+  <div style={{ marginTop: '6rem', marginLeft: '3rem' }}>
+    <h1><span style={{ color: 'rgb(9,6,98)' }}>Personalised </span> Mentor Support</h1>
+    <p style={{ color: 'rgb(132,132,144)' }}>Select a mentor from a pool of 2000+ industry experts & get 1-on-1 mentorship!</p>
+    <div className="d-flex justify-content-between" style={{ marginTop: '1.2rem' }}>
+      <span><a href="#" className="btn btn-primary" style={{ borderRadius: '50px' }}>Find a Mentor <FaSearch /></a></span>
+      <span><a href="#" className="btn btn-primary" style={{ borderRadius: '50px' }}>Become a mentor</a></span>
+    </div>
+    <img src="https://media.licdn.com/dms/image/D4E12AQHuUhy0-uoL0A/article-cover_image-shrink_720_1280/0/1690541851995?e=2147483647&v=beta&t=_NTXP41mHEMR4qjwI_PMQZ3KZ7M85h2_-JY2WkRfvKQ" alt="" style={{ width: '100%', height:'500px', marginTop: '1.5rem' }} />
+  </div>
+</div>
+
+        
+
+
+        <div className="p-2" style={{backgroundColor:'rgb(219,226,220)'}}>
+
+        <div class="d-flex justify-content-start"><h1><span  style={{color:'rgb(9,6,98)'}}>
+        Browse Job / Internship </span>That’s Right For You!</h1></div>
+        <p>Find a role that fits your career aspirations.</p>
+       <span><a href="#" className="btn btn-primary" style={{ borderRadius: '50px' }}>Find Jobs <FaSearch /></a></span>
+       <span><a href="#" className="btn btn-primary" style={{ borderRadius: '50px' }}> <GiSandsOfTime />Full-Time </a></span> 
+         <span><a href="#" className="btn btn-primary" style={{ borderRadius: '50px' }}> <GiSandsOfTime />Part-Time</a></span>
+         <span><a href="#" className="btn btn-primary" style={{ borderRadius: '50px' }}><IoIosBed />Work from Home</a></span>
+         <span><a href="#" className="btn btn-primary" style={{ borderRadius: '50px' }}><MdOutlineMapsHomeWork />On-Field</a></span>
+         <div class="card" style={{width: '18rem'}}>
+  <div class="card-body">
+    <h5 class="card-title">Jobs</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card" style={{width: '18rem'}}>
+  <div class="card-body">
+    <h5 class="card-title">interships</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+        </div>
 
 
         <div className="p-2"></div> <div className="p-2"></div>
