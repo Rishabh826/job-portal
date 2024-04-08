@@ -14,6 +14,10 @@ import { FaSearch } from "react-icons/fa";
 import { GiSandsOfTime } from "react-icons/gi";
 import { IoIosBed } from "react-icons/io";
 import { MdOutlineMapsHomeWork } from "react-icons/md";
+import { FaGoogle } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLocationArrow } from "react-icons/fa";
 export default class Home extends Component {
   render() {
     return (
@@ -31,7 +35,7 @@ export default class Home extends Component {
       </div>
 
 
-      <div className="container p-2">
+      <div className="container p-2" style={{backgroundImage:'url(https://wallpapers.com/images/featured/cool-white-background-ingbh7qw7if21dkn.jpg)'}}>
         <div className="d-flex justify-content-center" style={{ textShadow: '4px 3px 3px black' }}>
           <h1><strong><span style={{ color: 'blue' }}>Unlock</span> Your Career</strong></h1>
         </div>
@@ -260,34 +264,190 @@ export default class Home extends Component {
         
 
 
-        <div className="p-2" style={{backgroundColor:'rgb(219,226,220)'}}>
-
-        <div class="d-flex justify-content-start"><h1><span  style={{color:'rgb(9,6,98)'}}>
-        Browse Job / Internship </span>That’s Right For You!</h1></div>
+<div className="container p-2">
+  <div className="row">
+    <div className="col-md-6">
+      <div className="p-3" style={{ backgroundImage:'url(https://wallpapers.com/images/featured/cool-white-background-ingbh7qw7if21dkn.jpg)' ,marginTop:'4rem'}}>
+        <h1><span style={{ color: 'rgb(9,6,98)' }}>Browse Job / Internship</span> That’s Right For You!</h1>
         <p>Find a role that fits your career aspirations.</p>
-       <span><a href="#" className="btn btn-primary" style={{ borderRadius: '50px' }}>Find Jobs <FaSearch /></a></span>
-       <span><a href="#" className="btn btn-primary" style={{ borderRadius: '50px' }}> <GiSandsOfTime />Full-Time </a></span> 
-         <span><a href="#" className="btn btn-primary" style={{ borderRadius: '50px' }}> <GiSandsOfTime />Part-Time</a></span>
-         <span><a href="#" className="btn btn-primary" style={{ borderRadius: '50px' }}><IoIosBed />Work from Home</a></span>
-         <span><a href="#" className="btn btn-primary" style={{ borderRadius: '50px' }}><MdOutlineMapsHomeWork />On-Field</a></span>
-         <div class="card" style={{width: '18rem'}}>
-  <div class="card-body">
-    <h5 class="card-title">Jobs</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-<div class="card" style={{width: '18rem'}}>
-  <div class="card-body">
-    <h5 class="card-title">interships</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+        <div className="d-flex flex-wrap">
+          <span><a href="#" className="btn btn-primary m-1" style={{ borderRadius: '50px' }}>Find Jobs <FaSearch /></a></span>
+          <span><a href="#" className="btn btn-primary m-1" style={{ borderRadius: '50px' }}> <GiSandsOfTime />Full-Time </a></span>
+          <span><a href="#" className="btn btn-primary m-1" style={{ borderRadius: '50px' }}> <GiSandsOfTime />Part-Time</a></span>
+          <span><a href="#" className="btn btn-primary m-1" style={{ borderRadius: '50px' }}><IoIosBed />Work from Home</a></span>
+          <span><a href="#" className="btn btn-primary m-1" style={{ borderRadius: '50px' }}><MdOutlineMapsHomeWork />On-Field</a></span>
         </div>
+      </div>
+    </div>
+    
+    <div className="col-md-6">
+  <div className="p-3">
+    <div className="row">
+      <div className="col-md-6">
+        <div className="card mb-3">
+          <div className="card-body" style={{backgroundImage:'url(https://wallpapers.com/images/featured/cool-white-background-ingbh7qw7if21dkn.jpg)'}}>
+            <h5 className="card-title">Jobs  <SiMongodb /> <FaReact />  <PiFileSqlBold /> <IoLogoHtml5 /></h5>
+            <hr />
+            <a href="#" className="btn btn-success" style={{ border: '2px black',borderRadius:'100px' }}>
+              <strong>web developer</strong>
+              <p>software development</p>
+            </a>
+            <a href="#" className="btn btn-success" style={{ border: '2px black' ,marginTop:'10px',borderRadius:'100px',width:'11rem'}}>
+              <strong>Data Science</strong>
+              <p>computer science</p>
+            </a>
+            <a href="#" className="btn btn-success" style={{ border: '2px black',marginTop:'10px',borderRadius:'100px',width:'11rem' }}>
+              <strong>Digital Marketing</strong>
+              <p>Marketing</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-6">
+        <div className="card mb-3">
+          <div className="card-body" style={{backgroundImage:'url(https://wallpapers.com/images/featured/cool-white-background-ingbh7qw7if21dkn.jpg)'}}>
+            <h5 className="card-title">Internships  <FaGoogle /> <FaFacebookSquare /> <FaXTwitter /></h5>
+            <hr />
+            <a href="#" className="btn btn-success" style={{ border: '2px black',borderRadius:'100px' }}>
+              <strong>web developer</strong>
+              <p>software development</p>
+            </a>
+            <a href="#" className="btn btn-success" style={{ border: '2px black',borderRadius:'100px',marginTop:'10px',borderRadius:'100px',width:'11rem' }}>
+              <strong>Content Writing</strong>
+              <p>Content</p>
+            </a>
+            <a href="#" className="btn btn-success" style={{ border: '2px black',borderRadius:'100px',borderRadius:'100px',width:'11rem',marginTop:'10px' }}>
+              <strong>UI/UX Designer</strong>
+              <p>Designer</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
 
 
-        <div className="p-2"></div> <div className="p-2"></div>
+
+
+
+<div className="p-2">
+      <div className="subcontainer" style={{marginLeft:'5rem'}}>
+        <div className="header" style={{marginLeft:'2rem'}}>
+          <h1>Pick <span style={{ color: 'rgb(0,128,255)' }}> The Right Opportunity!</span></h1>
+          <p style={{ color: 'rgb(160,160,160)' }}>  Explore opportunities that best suits your skills and interests!</p>
+        </div>
+        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <div className="row">
+                <div className="col-md-2">
+                  <div className="card" style={{ width: '13rem' ,marginLeft:'2rem',backgroundImage:'url(https://wallpapers-hub.art/wallpaper-images/398133.jpg)',height:'15rem'}}>
+                    <div className="card-body">
+                      <h3 className="card-title">Hackathon</h3>
+                      <span><a href="#" className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'7rem' }}>Enroll now</a></span>
+                    
+                    </div>
+                  </div>
+                </div>
+                {/* Add more cards here */}
+                <div className="col-md-2">
+                  <div className="card"  style={{ width: '13rem' ,marginLeft:'2rem',backgroundImage:'url(https://c1.wallpaperflare.com/preview/653/576/854/question-mark-pile-question-mark.jpg)',height:'15rem'}}>
+                    <div className="card-body">
+                      <h3 className="card-title" style={{color:'white'}}>Quizzes</h3>
+                      <span><a href="#" className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'7rem' }}>Enroll now</a></span>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-2">
+                  <div className="card"  style={{ width: '13rem' ,marginLeft:'2rem',backgroundImage:'url(https://img.freepik.com/premium-vector/graduation-cost-expensive-education-scholarship-loan-budget_101884-1023.jpg)',height:'15rem'}}>
+                    <div className="card-body">
+                      <h3 className="card-title">Scholarship</h3>
+                      <span><a href="#" className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'7rem' }}>Enroll now</a></span>
+                  
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-2">
+                  <div className="card"  style={{ width: '13rem' ,marginLeft:'2rem',backgroundImage:'url(https://www.shutterstock.com/image-photo/speaker-business-conference-presentation-audience-600nw-217119211.jpg)',height:'15rem'}}>
+                    <div className="card-body">
+                      <h3 className="card-title" style={{color:'white'}}>Conferences</h3>
+                      <span><a href="#" className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'7rem' }}>Enroll now</a></span>
+                  
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-2">
+                  <div className="card"  style={{ width: '13rem' ,marginLeft:'2rem',backgroundImage:'url(https://img.freepik.com/free-photo/first-place-medal_23-2148930694.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1712448000&semt=ais)',height:'15rem'}}>
+                    <div className="card-body">
+                      <h3 className="card-title">Competitions</h3>
+                      <span><a href="#" className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'7rem' }}>Enroll now</a></span>
+                  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+          
+           <div className="p-2" style={{backgroundImage:'url(https://img.freepik.com/premium-photo/abstract-background-images-wallpaper-ai-generated_643360-7601.jpg)',marginTop:'3rem'}}>
+           <div class="d-flex justify-content-center"><h1>
+            <strong>Host Your Own <span  style={{ color: 'rgb(0,128,255)' }}>Opportunity</span></strong></h1>
+         
+           </div>
+           <div class="d-flex justify-content-center">
+
+           Engage with a diverse talent pool or hire the best minds froms <span style={{ color: 'blue' }}>100M+ users.</span>
+           </div>
+           <div class="d-flex justify-content-center">
+           <span><a href="#" className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'7rem' ,fontSize:'2.5rem'}}>Host Now <FaLocationArrow /></a></span>
+           <a href="#" class="card-link">Know More +</a>
+           </div>
+           </div>
+           <div className="p-2" style={{marginTop:'3rem',background:'linear-gradient(-30deg,rgb(13,153,181),rgb(8,210,250))'}}>
+           <footer className="footer mt-auto py-3">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <h5>Job Hunter</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam mauris vitae nulla suscipit, nec cursus nunc rhoncus.</p>
+          </div>
+          <div className="col-md-4">
+            <h5>Links</h5>
+            <ul className="list-unstyled">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div className="col-md-4">
+            <h5>Contact Us</h5>
+            <address>
+              <strong>Job Hunter</strong><br />
+              123 Street Name, City<br />
+              Country, Postal Code<br />
+              <abbr title="Phone">P:</abbr> (123) 456-7890
+            </address>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-12 text-center">
+            <p>&copy; {new Date().getFullYear()} Job Hunter. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+           </div>
+           
+
       </div>
     );
   }
