@@ -34,7 +34,7 @@ export default class home extends Component {
         <Link className="nav-link" to="#">About Us</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/Employ">Jobs</Link>
+        <Link className="nav-link" to="/">Jobs</Link>
       </li>
       <li className="nav-item">
         <Link className="nav-link" to="/ContactUs">Contact Us</Link>

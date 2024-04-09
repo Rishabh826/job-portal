@@ -3,6 +3,7 @@ import { FaAws } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { PiFileSqlBold } from "react-icons/pi";
 import { FaPython } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 import { IoLogoHtml5 } from "react-icons/io5";
 import { SiMongodb } from "react-icons/si";
 import { FaArrowPointer } from "react-icons/fa6";
@@ -141,7 +142,7 @@ export default class Home extends Component {
       <div className="card-body">
         <h5 className="card-title">Online  |  Free</h5>
         <p className="card-text"> <strong>How to crack product management roles!</strong> </p>
-        <a href="#" className="btn btn-primary">Explore</a>
+        <a to="#" className="btn btn-primary">Explore</a>
       </div>
     </div>
     <div className="card m-2" style={{ width: '18rem', display: 'inline-block' }}>
@@ -149,7 +150,7 @@ export default class Home extends Component {
       <div className="card-body">
         <h5 className="card-title">Online  |  Free</h5>
         <p className="card-text"><strong> How to Crack the Test of Tech Giants!</strong></p>
-        <a href="#" className="btn btn-primary">Explore</a>
+        <a to="#" className="btn btn-primary">Explore</a>
       </div>
     </div>
     <div className="card m-2" style={{ width: '18rem', display: 'inline-block' }}>
@@ -157,7 +158,7 @@ export default class Home extends Component {
       <div className="card-body">
         <h5 className="card-title">Online   |  Free</h5>
         <p className="card-text"><strong>Win Attractive Cash Prizes with SUSTAIN-A-THON....</strong></p>
-        <a href="#" className="btn btn-primary">Explore</a>
+        <a to="#" className="btn btn-primary">Explore</a>
       </div>
     </div>
     <div className="card m-2" style={{ width: '18rem', display: 'inline-block' }}>
@@ -165,7 +166,7 @@ export default class Home extends Component {
       <div className="card-body">
         <h5 className="card-title">Online   | Free</h5>
         <p className="card-text"><strong>Flipkart Girls Wanna Code 5.0 | Grab PPIs and.....</strong></p>
-        <a href="#" className="btn btn-primary">Explore</a>
+        <a to="#" className="btn btn-primary">Explore</a>
       </div>
     </div>
   </div>
@@ -174,21 +175,21 @@ export default class Home extends Component {
 
 
         <div className="p-2">
-        <div class="d-flex justify-content-center">
-        <div class="card mb-3" style={{maxWidth:'90rem'}}>
-  <div class="row g-0">
-    <div class="col-md-4" >
-      <img src="https://media.istockphoto.com/id/1137026449/photo/happy-smiling-boy-pointing-at-laptop-computer.jpg?s=612x612&w=0&k=20&c=RDa77zkUr4obh618p_wDCjCyAgV89EQxiRCyAqiMIgc=" class="img-fluid rounded-start" alt="..."/>
+        <div className="d-flex justify-content-center">
+        <div className="card mb-3" style={{maxWidth:'90rem'}}>
+  <div className="row g-0">
+    <div className="col-md-4" >
+      <img src="https://media.istockphoto.com/id/1137026449/photo/happy-smiling-boy-pointing-at-laptop-computer.jpg?s=612x612&w=0&k=20&c=RDa77zkUr4obh618p_wDCjCyAgV89EQxiRCyAqiMIgc=" className="img-fluid rounded-start" alt="..."/>
       
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title" style={{fontSize:'5em'}}><strong style={{color:'blue'}}>Learn &</strong><p>
+    <div className="col-md-8">
+      <div className="card-body">
+        <h5 className="card-title" style={{fontSize:'5em'}}><strong style={{color:'blue'}}>Learn &</strong><p>
           <strong>Level up your Skills</strong></p> </h5>
-        <p class="card-text"></p>
-        <p class="card-text">Select from a wide range of courses to upskill and advance your career!</p>
+        <p className="card-text"></p>
+        <p className="card-text">Select from a wide range of courses to upskill and advance your career!</p>
         <p>50+ Courses   |   Certificate    |    Projects & Assignment </p>
-        <a href="#" className="btn btn-primary" style={{borderRadius:'50px',fontSize:'2rem'}}>Explore Courses <FaArrowPointer /></a>
+        <a to="#" className="btn btn-primary" style={{borderRadius:'50px',fontSize:'2rem'}}>Explore Courses <FaArrowPointer /></a>
       </div>
     </div>
   </div>
@@ -209,38 +210,38 @@ export default class Home extends Component {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img src="https://i.pinimg.com/originals/40/bf/50/40bf5022f099e7030c11e17e50f4b3da.png" className="d-block w-100" alt="..." style={{ width: '100%', height: '400px' }} />
-          <div class="carousel-caption d-none d-md-block" style={{marginBottom:'0.4rem'}}>
+          <div className="carousel-caption d-none d-md-block" style={{marginBottom:'0.4rem'}}>
         <h1 style={{marginBottom:'12rem'}} >Coding Practice <SiCodingninjas />  </h1>
         <p >Level up your coding skills by practicing the hiring Questions</p>
         <span><strong>400+ Questions</strong></span>
-        <span><a href="#" className="btn btn-primary" style={{borderRadius:'50px',marginLeft:'1.2rem'}}>Explore Courses <FaArrowPointer /></a></span>
+        <span><a to="#" className="btn btn-primary" style={{borderRadius:'50px',marginLeft:'1.2rem'}}>Explore Courses <FaArrowPointer /></a></span>
       </div>
         </div>
         <div className="carousel-item">
           <img src="https://img.freepik.com/free-vector/job-interview-conversation_74855-7566.jpg" className="d-block w-100" alt="..." style={{ width: '100%', height: '400px' }} />
-          <div class="carousel-caption d-none d-md-block" style={{marginBottom:'0.4rem' ,color:'black'}}>
+          <div className="carousel-caption d-none d-md-block" style={{marginBottom:'0.4rem' ,color:'black'}}>
         <h1 style={{marginBottom:'12rem'}} >Interview  preparations <FaBookMedical /> </h1>
         <p><strong>Crack Top companies in just 5 days.</strong></p>
         <span><strong>30+ companies</strong></span>
-        <span><a href="#" className="btn btn-primary" style={{borderRadius:'50px',marginLeft:'1.2rem'}}>Explore Courses <FaArrowPointer /></a></span>
+        <span><a to="#" className="btn btn-primary" style={{borderRadius:'50px',marginLeft:'1.2rem'}}>Explore Courses <FaArrowPointer /></a></span>
       </div>
         </div>
         <div className="carousel-item">
           <img src="https://img.freepik.com/free-vector/realistic-white-monochrome-background_23-2149010357.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1711929600&semt=ais" className="d-block w-100" alt="..." style={{ width: '100%', height: '400px' }} />
-          <div class="carousel-caption d-none d-md-block" style={{marginBottom:'0.4rem' ,color:'black'}}>
+          <div className="carousel-caption d-none d-md-block" style={{marginBottom:'0.4rem' ,color:'black'}}>
         <h1 style={{marginBottom:'12rem'}} >Projects <GoProjectSymlink />  </h1>
         <p><strong>Projects epitomize perfect synergy for success.</strong></p>
         <span><strong>200+ projects</strong></span>
-        <span><a href="#" className="btn btn-primary" style={{borderRadius:'50px',marginLeft:'1.2rem'}}>Explore Courses <FaArrowPointer /></a></span>
+        <span><a to="#" className="btn btn-primary" style={{borderRadius:'50px',marginLeft:'1.2rem'}}>Explore Courses <FaArrowPointer /></a></span>
       </div>
         </div>
         <div className="carousel-item">
           <img src="https://media.istockphoto.com/id/1254880085/vector/survey-and-testimonials-related-vector-illustration-flat-modern-design.jpg?s=612x612&w=0&k=20&c=-4_NbcfWS13l7CKtih9RAW8d-VWPO_fW34wRJ7nyoKY=" className="d-block w-100" alt="..." style={{ width: '100%', height: '400px' }} />
-          <div class="carousel-caption d-none d-md-block" style={{marginBottom:'1.5rem' ,color:'black'}}>
+          <div className="carousel-caption d-none d-md-block" style={{marginBottom:'1.5rem' ,color:'black'}}>
         <h1 style={{marginBottom:'12rem'}} >Skill assessment <GiSkills />  </h1>
         <p><strong>Assess your skills and get ahead of the curve.</strong></p>
         <span><strong>5000+ Questions</strong></span>
-        <span><a href="#" className="btn btn-primary" style={{borderRadius:'50px',marginLeft:'1.2rem'}}>Explore Courses <FaArrowPointer /></a></span>
+        <span><a to="#" className="btn btn-primary" style={{borderRadius:'50px',marginLeft:'1.2rem'}}>Explore Courses <FaArrowPointer /></a></span>
       </div>
         </div>
       </div>
@@ -256,8 +257,8 @@ export default class Home extends Component {
     <h1><span style={{ color: 'rgb(9,6,98)' }}>Personalised </span> Mentor Support</h1>
     <p style={{ color: 'rgb(132,132,144)' }}>Select a mentor from a pool of 2000+ industry experts & get 1-on-1 mentorship!</p>
     <div className="d-flex justify-content-between" style={{ marginTop: '1.2rem' }}>
-      <span><a href="#" className="btn btn-primary" style={{ borderRadius: '50px' }}>Find a Mentor <FaSearch /></a></span>
-      <span><a href="#" className="btn btn-primary" style={{ borderRadius: '50px' }}>Become a mentor</a></span>
+      <span><a to="#" className="btn btn-primary" style={{ borderRadius: '50px' }}>Find a Mentor <FaSearch /></a></span>
+      <span><a to="#" className="btn btn-primary" style={{ borderRadius: '50px' }}>Become a mentor</a></span>
     </div>
     <img src="https://media.licdn.com/dms/image/D4E12AQHuUhy0-uoL0A/article-cover_image-shrink_720_1280/0/1690541851995?e=2147483647&v=beta&t=_NTXP41mHEMR4qjwI_PMQZ3KZ7M85h2_-JY2WkRfvKQ" alt="" style={{ width: '100%', height:'500px', marginTop: '1.5rem' }} />
   </div>
@@ -273,11 +274,11 @@ export default class Home extends Component {
         <h1><span style={{ color: 'rgb(9,6,98)' }}>Browse Job / Internship</span> That’s Right For You!</h1>
         <p>Find a role that fits your career aspirations.</p>
         <div className="d-flex flex-wrap">
-          <span><a href="#" className="btn btn-primary m-1" style={{ borderRadius: '50px' }}>Find Jobs <FaSearch /></a></span>
-          <span><a href="#" className="btn btn-primary m-1" style={{ borderRadius: '50px' }}> <GiSandsOfTime />Full-Time </a></span>
-          <span><a href="#" className="btn btn-primary m-1" style={{ borderRadius: '50px' }}> <GiSandsOfTime />Part-Time</a></span>
-          <span><a href="#" className="btn btn-primary m-1" style={{ borderRadius: '50px' }}><IoIosBed />Work from Home</a></span>
-          <span><a href="#" className="btn btn-primary m-1" style={{ borderRadius: '50px' }}><MdOutlineMapsHomeWork />On-Field</a></span>
+          <span><a to="#" className="btn btn-primary m-1" style={{ borderRadius: '50px' }}>Find Jobs <FaSearch /></a></span>
+          <span><a to="#" className="btn btn-primary m-1" style={{ borderRadius: '50px' }}> <GiSandsOfTime />Full-Time </a></span>
+          <span><a to="#" className="btn btn-primary m-1" style={{ borderRadius: '50px' }}> <GiSandsOfTime />Part-Time</a></span>
+          <span><a to="#" className="btn btn-primary m-1" style={{ borderRadius: '50px' }}><IoIosBed />Work from Home</a></span>
+          <span><a to="#" className="btn btn-primary m-1" style={{ borderRadius: '50px' }}><MdOutlineMapsHomeWork />On-Field</a></span>
         </div>
       </div>
     </div>
@@ -290,15 +291,15 @@ export default class Home extends Component {
           <div className="card-body" style={{backgroundImage:'url(https://wallpapers.com/images/featured/cool-white-background-ingbh7qw7if21dkn.jpg)'}}>
             <h5 className="card-title">Jobs  <SiMongodb /> <FaReact />  <PiFileSqlBold /> <IoLogoHtml5 /></h5>
             <hr />
-            <a href="#" className="btn btn-success" style={{ border: '2px black',borderRadius:'100px' }}>
+            <a to="#" className="btn btn-success" style={{ border: '2px black',borderRadius:'100px' }}>
               <strong>web developer</strong>
               <p>software development</p>
             </a>
-            <a href="#" className="btn btn-success" style={{ border: '2px black' ,marginTop:'10px',borderRadius:'100px',width:'11rem'}}>
+            <a to="#" className="btn btn-success" style={{ border: '2px black' ,marginTop:'10px',borderRadius:'100px',width:'11rem'}}>
               <strong>Data Science</strong>
               <p>computer science</p>
             </a>
-            <a href="#" className="btn btn-success" style={{ border: '2px black',marginTop:'10px',borderRadius:'100px',width:'11rem' }}>
+            <a to="#" className="btn btn-success" style={{ border: '2px black',marginTop:'10px',borderRadius:'100px',width:'11rem' }}>
               <strong>Digital Marketing</strong>
               <p>Marketing</p>
             </a>
@@ -310,15 +311,15 @@ export default class Home extends Component {
           <div className="card-body" style={{backgroundImage:'url(https://wallpapers.com/images/featured/cool-white-background-ingbh7qw7if21dkn.jpg)'}}>
             <h5 className="card-title">Internships  <FaGoogle /> <FaFacebookSquare /> <FaXTwitter /></h5>
             <hr />
-            <a href="#" className="btn btn-success" style={{ border: '2px black',borderRadius:'100px' }}>
+            <a to="#" className="btn btn-success" style={{ border: '2px black',borderRadius:'100px' }}>
               <strong>web developer</strong>
               <p>software development</p>
             </a>
-            <a href="#" className="btn btn-success" style={{ border: '2px black',borderRadius:'100px',marginTop:'10px',borderRadius:'100px',width:'11rem' }}>
+            <a to="#" className="btn btn-success" style={{ border: '2px black',borderRadius:'100px',marginTop:'10px',borderRadius:'100px',width:'11rem' }}>
               <strong>Content Writing</strong>
               <p>Content</p>
             </a>
-            <a href="#" className="btn btn-success" style={{ border: '2px black',borderRadius:'100px',borderRadius:'100px',width:'11rem',marginTop:'10px' }}>
+            <a to="#" className="btn btn-success" style={{ border: '2px black',borderRadius:'100px',borderRadius:'100px',width:'11rem',marginTop:'10px' }}>
               <strong>UI/UX Designer</strong>
               <p>Designer</p>
             </a>
@@ -350,7 +351,7 @@ export default class Home extends Component {
                   <div className="card" style={{ width: '13rem' ,marginLeft:'2rem',backgroundImage:'url(https://wallpapers-hub.art/wallpaper-images/398133.jpg)',height:'15rem'}}>
                     <div className="card-body">
                       <h3 className="card-title">Hackathon</h3>
-                      <span><a href="#" className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'7rem' }}>Enroll now</a></span>
+                      <span><a to="#" className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'7rem' }}>Enroll now</a></span>
                     
                     </div>
                   </div>
@@ -360,7 +361,7 @@ export default class Home extends Component {
                   <div className="card"  style={{ width: '13rem' ,marginLeft:'2rem',backgroundImage:'url(https://c1.wallpaperflare.com/preview/653/576/854/question-mark-pile-question-mark.jpg)',height:'15rem'}}>
                     <div className="card-body">
                       <h3 className="card-title" style={{color:'white'}}>Quizzes</h3>
-                      <span><a href="#" className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'7rem' }}>Enroll now</a></span>
+                      <span><a to="#" className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'7rem' }}>Enroll now</a></span>
                     </div>
                   </div>
                 </div>
@@ -368,7 +369,7 @@ export default class Home extends Component {
                   <div className="card"  style={{ width: '13rem' ,marginLeft:'2rem',backgroundImage:'url(https://img.freepik.com/premium-vector/graduation-cost-expensive-education-scholarship-loan-budget_101884-1023.jpg)',height:'15rem'}}>
                     <div className="card-body">
                       <h3 className="card-title">Scholarship</h3>
-                      <span><a href="#" className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'7rem' }}>Enroll now</a></span>
+                      <span><a to="#" className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'7rem' }}>Enroll now</a></span>
                   
                     </div>
                   </div>
@@ -377,7 +378,7 @@ export default class Home extends Component {
                   <div className="card"  style={{ width: '13rem' ,marginLeft:'2rem',backgroundImage:'url(https://www.shutterstock.com/image-photo/speaker-business-conference-presentation-audience-600nw-217119211.jpg)',height:'15rem'}}>
                     <div className="card-body">
                       <h3 className="card-title" style={{color:'white'}}>Conferences</h3>
-                      <span><a href="#" className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'7rem' }}>Enroll now</a></span>
+                      <span><a to="#" className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'7rem' }}>Enroll now</a></span>
                   
                     </div>
                   </div>
@@ -386,7 +387,7 @@ export default class Home extends Component {
                   <div className="card"  style={{ width: '13rem' ,marginLeft:'2rem',backgroundImage:'url(https://img.freepik.com/free-photo/first-place-medal_23-2148930694.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1712448000&semt=ais)',height:'15rem'}}>
                     <div className="card-body">
                       <h3 className="card-title">Competitions</h3>
-                      <span><a href="#" className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'7rem' }}>Enroll now</a></span>
+                      <span><a to="#" className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'7rem' }}>Enroll now</a></span>
                   
                     </div>
                   </div>
@@ -400,17 +401,17 @@ export default class Home extends Component {
 
           
            <div className="p-2" style={{backgroundImage:'url(https://img.freepik.com/premium-photo/abstract-background-images-wallpaper-ai-generated_643360-7601.jpg)',marginTop:'3rem'}}>
-           <div class="d-flex justify-content-center"><h1>
+           <div className="d-flex justify-content-center"><h1>
             <strong>Host Your Own <span  style={{ color: 'rgb(0,128,255)' }}>Opportunity</span></strong></h1>
          
            </div>
-           <div class="d-flex justify-content-center">
+           <div className="d-flex justify-content-center">
 
            Engage with a diverse talent pool or hire the best minds froms <span style={{ color: 'blue' }}>100M+ users.</span>
            </div>
-           <div class="d-flex justify-content-center">
-           <span><a href="#"  className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'5rem' ,fontSize:'2.5rem',fontFamily:'fantasy'}}>Host Now <FaLocationArrow /></a></span>
-           <a href="#" class="card-link">Know More +</a>
+           <div className="d-flex justify-content-center">
+           <span><Link to="/Postajob"  className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'5rem' ,fontSize:'2.5rem',fontFamily:'fantasy'}}>Host Now <FaLocationArrow /></Link></span>
+           <a to="#" className="card-link">Know More +</a>
            </div>
            </div>
            <div className="p-2" style={{marginTop:'3rem',background:'linear-gradient(-30deg,rgb(13,153,181),rgb(8,210,250))'}}>
@@ -424,10 +425,10 @@ export default class Home extends Component {
           <div className="col-md-4">
             <h5>Links</h5>
             <ul className="list-unstyled">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a to="#home">Home</a></li>
+              <li><a to="#about">About</a></li>
+              <li><a to="#services">Services</a></li>
+              <li><a to="#contact">Contact</a></li>
             </ul>
           </div>
           <div className="col-md-4">

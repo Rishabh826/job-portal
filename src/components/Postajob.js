@@ -4,10 +4,10 @@ export default class Employ extends Component {
   render() {
     return (
       
-      <div className="container-fluid" style={{ overflowY: 'scroll', height: '100vh' }}>
+      <div className="container-fluid" style={{ overflowY: 'scroll', height: '100vh',backgroundImage:'url(https://wallpapercave.com/wp/wp9081316.jpg)' }}>
       <div className="d-flex flex-column mb-3">
         <div className="p-2">
-          <nav className="navbar bg-primary">
+          <nav className="navbar bg-primary fixed-top">
             <div className="container-fluid">
               <a className="navbar-brand" href="/" style={{ marginLeft: '10px' }}>
                 <img src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1395991368.1711497600&semt=sph" alt="Logo" width="30" height="24" className="d-inline-block align-text-top" />
@@ -20,9 +20,9 @@ export default class Employ extends Component {
             </div>
           </nav>
 
-          <form className="container mt-4">
-              <div className="row g-3">
-                <div className="col-md-4">
+          <form className="container mt-4" >
+              <div className="row g-3" style={{marginTop:'4rem'}}>
+                <div className="col-md-4" >
                   <label htmlFor="validationDefault01" className="form-label">Job Title:</label>
                   <input type="text" className="form-control" id="validationDefault01" required style={{ width: '20rem' }} />
                 </div>
@@ -115,22 +115,22 @@ export default class Employ extends Component {
             <div className="container mt-4">
               <h4 className="text-center mb-4" style={{ marginRight: '9rem' }}>Job Details</h4>
               <div className="input-group mb-3">
-                <span className="input-group-text" style={{backgroundColor:'blueviolet'}}>Job Details</span>
+                <span className="input-group-text" style={{backgroundColor:'rgb(0,102,204)'}}>Job Details</span>
                 <textarea className="form-control" aria-label="With textarea"></textarea>
               </div>
 
               <div className="input-group mb-3" style={{marginTop:'5rem'}}>
-                <span className="input-group-text" style={{backgroundColor:'blueviolet'}} >Responsibilities</span>
+                <span className="input-group-text" style={{backgroundColor:'rgb(0,102,204)'}} >Responsibilities</span>
                 <textarea className="form-control" aria-label="With textarea"></textarea>
               </div>
 
               <div className="input-group mb-3" style={{marginTop:'5rem'}}>
-                <span className="input-group-text" style={{backgroundColor:'blueviolet'}}>Education</span>
+                <span className="input-group-text" style={{backgroundColor:'rgb(0,102,204)'}}>Education</span>
                 <textarea className="form-control" aria-label="With textarea"></textarea>
               </div>
 
               <div className="input-group mb-3" style={{marginTop:'5rem'}}>
-                <span className="input-group-text" style={{backgroundColor:'blueviolet'}}>Other Benefits</span>
+                <span className="input-group-text" style={{backgroundColor:'rgb(0,102,204)'}}>Other Benefits</span>
                 <textarea className="form-control" aria-label="With textarea"></textarea>
               </div>
               <div className="container">
@@ -168,7 +168,7 @@ export default class Employ extends Component {
         </div>
         <footer className="footer mt-auto py-3 bg-purple text-center">
           <div className="container">
-            <span className="text-muted">2024 @Vyavasay</span>
+            <span className="text-muted">2024 @Job-Hunting</span>
           </div>
         </footer>
       </div>
