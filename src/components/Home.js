@@ -18,6 +18,8 @@ import { FaGoogle } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLocationArrow } from "react-icons/fa";
+import { FaCarSide } from "react-icons/fa6";
+import { FaEllipsisH } from "react-icons/fa";
 export default class Home extends Component {
   render() {
     return (
@@ -28,7 +30,7 @@ export default class Home extends Component {
           <div className="d-flex flex-column align-items-center justify-content-center h-100">
             <strong style={{color:'white', fontSize:'xxx-large', marginBottom:'1rem'}}> Over 15,600 Jobs Listed Here!</strong>
             <span style={{color:'white', marginBottom:'1rem'}}> <strong>IN JobHunting JOB PORTAL EVERY MINUTE ABOUT 50 PEOPLES IS PLACED </strong></span>
-            <span style={{color:'white', marginBottom:'1rem'}}> <strong>Ensuring a 95% Interview Scheduling Rate: Apply with Confidence on Our Job Portal! </strong></span>
+            <marquee  scrollamount="10" direction="right" behavior="scroll" style={{color:'white', marginBottom:'1rem'}}> <strong>Ensuring a 95% Interview Scheduling Rate: Apply with Confidence on Our Job Portal!  <FaEllipsisH /> <FaCarSide /> </strong></marquee>
           
           </div>
         </div>
@@ -39,9 +41,9 @@ export default class Home extends Component {
         <div className="d-flex justify-content-center" style={{ textShadow: '4px 3px 3px black' }}>
           <h1><strong><span style={{ color: 'blue' }}>Unlock</span> Your Career</strong></h1>
         </div>
-        <div className="d-flex justify-content-center" style={{ color: 'rgb(117, 109, 111)', marginBottom: '20px', animation: 'wave 2s infinite' }}>
-          Explore opportunities from across the globe to learn, showcase skills, gain CV points & get hired by your dream company.
-        </div>
+        <marquee className="d-flex justify-content-center" style={{ color: 'rgb(117, 109, 111)', marginBottom: '20px', animation: 'wave 2s infinite' }}>
+        <FaCarSide /> <FaEllipsisH /> Explore opportunities from across the globe to learn, showcase skills, gain CV points & get hired by your dream company.
+        </marquee>
         <div className="row justify-content-around mt-4">
           <div className="col-md-4">
             <div className="card text-bg-dark h-90" style={{ cursor: 'pointer', boxShadow: '5px 5px 5px black' }}>
@@ -103,7 +105,7 @@ export default class Home extends Component {
 
         
       <div className="p-2" style={{marginTop:'10rem'}}>
-      <div class="d-flex justify-content-center" style={{fontFamily:'fantasy'}}><h1>Running Programm in colleges</h1></div> <hr />
+      <marquee scrollamount='10'  direction="right" className="d-flex justify-content-center" style={{fontFamily:'fantasy'}}><h1>     Running Programm in colleges<FaEllipsisH /> <FaCarSide /> </h1></marquee> <hr />
         <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel" style={{marginTop:'5rem'}}>
           <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="5000" style={{ height: '30rem' }}>
@@ -203,7 +205,7 @@ export default class Home extends Component {
   </div>
   <div><p style={{ marginLeft: '5rem' }}>Level up your coding skills by practicing the hiring assessments of your dream companies & ace your placement game!</p></div>
   <div className="d-flex justify-content-center">
-    <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img src="https://i.pinimg.com/originals/40/bf/50/40bf5022f099e7030c11e17e50f4b3da.png" className="d-block w-100" alt="..." style={{ width: '100%', height: '400px' }} />
@@ -341,7 +343,7 @@ export default class Home extends Component {
           <p style={{ color: 'rgb(160,160,160)' }}>  Explore opportunities that best suits your skills and interests!</p>
         </div>
         <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
-          <div className="carousel-inner">
+          <marquee className="carousel-inner" scrollamount="15">
             <div className="carousel-item active">
               <div className="row">
                 <div className="col-md-2">
@@ -353,7 +355,7 @@ export default class Home extends Component {
                     </div>
                   </div>
                 </div>
-                {/* Add more cards here */}
+                
                 <div className="col-md-2">
                   <div className="card"  style={{ width: '13rem' ,marginLeft:'2rem',backgroundImage:'url(https://c1.wallpaperflare.com/preview/653/576/854/question-mark-pile-question-mark.jpg)',height:'15rem'}}>
                     <div className="card-body">
@@ -390,9 +392,9 @@ export default class Home extends Component {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
+            </div> 
+          </marquee>
+        </div>  
       </div>
     </div> 
 
@@ -407,7 +409,7 @@ export default class Home extends Component {
            Engage with a diverse talent pool or hire the best minds froms <span style={{ color: 'blue' }}>100M+ users.</span>
            </div>
            <div class="d-flex justify-content-center">
-           <span><a href="#" className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'7rem' ,fontSize:'2.5rem'}}>Host Now <FaLocationArrow /></a></span>
+           <span><a href="#"  className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'5rem' ,fontSize:'2.5rem',fontFamily:'fantasy'}}>Host Now <FaLocationArrow /></a></span>
            <a href="#" class="card-link">Know More +</a>
            </div>
            </div>
