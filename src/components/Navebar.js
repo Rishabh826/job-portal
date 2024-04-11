@@ -20,24 +20,64 @@ export default class home extends Component {
         <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
   <span className="navbar-toggler-icon"></span>
 </button>
-<div className="offcanvas offcanvas-end text-bg-dark" tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel" style={{backgroundImage:'url(https://www.pixelstalk.net/wp-content/uploads/2016/08/Download-Full-HD-Wallpapers-1080p.jpg)'}}>
+<div className="offcanvas offcanvas-end text-bg-dark" tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel" style={{backgroundImage:'url(https://img.freepik.com/premium-photo/4k-abstract-black-background_625460-704.jpg)'}}>
   <div className="offcanvas-header">
     <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel"><strong>Menu</strong></h5>
     <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div className="offcanvas-body">
     <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+    <li className="nav-item">
+        <Link className="nav-link" to="#">For Employers</Link>
+      </li>
       <li className="nav-item">
-        <Link className="nav-link active" aria-current="page" to="/Home">Home</Link>
+      <div class="dropdown">
+  <a class="nav-item dropdown-toggle" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'whitesmoke', textDecoration: 'none'}}>
+    our solutions
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="#">Hiring</a></li>
+    <li><a class="dropdown-item" href="#">Assesments</a></li>
+    <li><a class="dropdown-item" href="#">Engagement</a></li>
+  </ul>
+</div>
+
+<div class="dropdown">
+  <a class="nav-item dropdown-toggle" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'whitesmoke',textDecoration:'none'}}>
+    Our Product
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="#">Proctoring</a></li>
+    <li><a class="dropdown-item" href="#">Coding Interview Plateform</a></li>
+    
+  </ul>
+</div>
       </li>
       <li className="nav-item">
         <Link className="nav-link" to="#">About Us</Link>
       </li>
       <li className="nav-item">
+        <Link className="nav-link" to="#">Job-Hunting Talent meet 2024</Link>
+      </li>
+      <li className="nav-item">
         <Link className="nav-link" to="/">Jobs</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/ContactUs">Contact Us</Link>
+        <Link className="nav-link" to="/ContactUs">FaQ's</Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link" to="/">For Employs</Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link" to="/">Pricing</Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link" to="/">Terms & Conditions</Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link" to="/">Privacy Policy</Link>
       </li>
     </ul>
   </div>
