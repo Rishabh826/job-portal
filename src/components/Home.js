@@ -22,6 +22,49 @@ import { FaLocationArrow } from "react-icons/fa";
 import { FaCarSide } from "react-icons/fa6";
 import { FaEllipsisH } from "react-icons/fa";
 export default class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      text: '',
+      isSecondWord: false,
+    };
+    this.words = ['Over 1,500 Jobs Listed Here!', 'We Are Leading From Front'];
+    this.index = 0;
+    this.wordIndex = 0;
+    this.delta = 250; // Delay between each character
+  }
+
+  componentDidMount() {
+    this.interval = setInterval(this.updateText.bind(this), this.delta);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.interval);
+  }
+
+  updateText() {
+    const word = this.words[this.wordIndex];
+    let newText = '';
+
+    if (this.index < word.length) {
+      newText = word.slice(0, this.index + 1);
+      this.index++;
+    } else {
+      if (this.state.isSecondWord) {
+        this.index = 0;
+        this.wordIndex = 0; // Reset to start of the words array
+        this.setState({ isSecondWord: false });
+      } else {
+        this.index = 0;
+        this.wordIndex = 1; // Switch to the second word
+        this.setState({ isSecondWord: true });
+      }
+      return;
+    }
+
+    this.setState({ text: newText });
+  }
+
   render() {
     return (
       <div className="d-flex flex-column mb-3">
@@ -29,7 +72,7 @@ export default class Home extends Component {
         <div className="p-2" style={{height:'10vh'}}></div>
         <div className="p-2" style={{background:'linear-gradient(-30deg,rgb(13,153,181),rgb(8,210,250))', height:'60vh', width: '100%'}}>
           <div className="d-flex flex-column align-items-center justify-content-center h-100">
-            <strong style={{color:'white', fontSize:'xxx-large', marginBottom:'1rem'}}> Over 15,600 Jobs Listed Here!</strong>
+            <strong style={{color:'white', fontSize:'xxx-large', marginBottom:'1rem'}}>{this.state.text}</strong>
             <span style={{color:'white', marginBottom:'1rem'}}> <strong>IN JobHunting JOB PORTAL EVERY MINUTE ABOUT 50 PEOPLES IS PLACED </strong></span>
             <marquee  scrollamount="10" direction="right" behavior="scroll" style={{color:'white', marginBottom:'1rem'}}> <strong>Ensuring a 95% Interview Scheduling Rate: Apply with Confidence on Our Job Portal!  <FaEllipsisH /> <FaCarSide /> </strong></marquee>
           

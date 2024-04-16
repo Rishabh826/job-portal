@@ -5,6 +5,7 @@ import Navebar from './components/Navebar';
 import Signup from './components/Signup';
 import Contact from './components/Contact';
 import Home from './components/Home';
+import Learn from './components/Learn';
 import Postajob from './components/Postajob';
 
 const NavebarWithConditionalRender = () => {
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="/Ioperson" element={<Login />} />
           <Route path="/Signup" element={<Signup />} />
           <Route path="/ContactUs" element={<Contact />} />
+          <Route path="/Learn" element={<Learn />} />
         </Routes>
       </BrowserRouter>
     </div>
