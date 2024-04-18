@@ -90,8 +90,9 @@ export default class Home extends Component {
         </marquee>
         <div className="row justify-content-around mt-4">
           <div className="col-md-4">
+            <Link  className="link to Learn" to="/Learn">
             <div className="card text-bg-dark h-90" style={{ cursor: 'pointer', boxShadow: '5px 5px 5px black' }}>
-              <img src="https://i.pinimg.com/originals/61/87/e9/6187e9226969b30607c22591376850b7.jpg" className="card-img" alt="..." />
+              <img src="https://i.pinimg.com/originals/61/87/e9/6187e9226969b30607c22591376850b7.jpg" className="card-img"  alt="..." />
               <div className="card-img-overlay">
                 <h5 className="card-title">Learn</h5>
                 <hr style={{ backgroundColor: 'blue', height: '2px', margin: '8px 0' }} />
@@ -105,6 +106,7 @@ export default class Home extends Component {
              
               </div>
             </div>
+            </Link>
           </div>
           <div className="col-md-4">
             <div className="card text-bg-dark h-90" style={{ cursor: 'pointer', boxShadow: '5px 5px 5px black' }}>
