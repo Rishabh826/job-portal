@@ -25,7 +25,7 @@ export default class home extends Component {
               <p style={{ color: 'white' }}>Learn</p>
             </Link>
 
-            <Link className="nav-link me-4" to="/Ioperson">
+            <Link className="nav-link me-4" to="/Practice">
               <TbTargetArrow style={{ color: 'white', fontSize: '30px' }} />
               <p style={{ color: 'white' }}>Practice</p>
             </Link>

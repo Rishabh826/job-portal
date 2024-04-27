@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Home from './components/Home';
 import Learn from './components/Learn';
 import Postajob from './components/Postajob';
+import Practice from './components/Practice';
 
 const NavebarWithConditionalRender = () => {
   const location = useLocation();
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/Signup" element={<Signup />} />
           <Route path="/ContactUs" element={<Contact />} />
           <Route path="/Learn" element={<Learn />} />
+          <Route path="/Practice" element={<Practice />} />
         </Routes>
       </BrowserRouter>
     </div>
