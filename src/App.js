@@ -8,7 +8,8 @@ import Home from './components/Home';
 import Learn from './components/Learn';
 import Postajob from './components/Postajob';
 import Practice from './components/Practice';
-
+import Compete from './components/Compete';
+import Mentorship from './components/Mentorship';
 const NavebarWithConditionalRender = () => {
   const location = useLocation();
   const shouldRenderNavebar = location.pathname !== '/Postajob'; // Check if current route is not Postajob
@@ -31,6 +32,8 @@ const App = () => {
           <Route path="/ContactUs" element={<Contact />} />
           <Route path="/Learn" element={<Learn />} />
           <Route path="/Practice" element={<Practice />} />
+          <Route path="/Compete" element={<Compete />} />
+          <Route path="/Mentorship" element={<Mentorship />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import { FaAws } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { PiFileSqlBold } from "react-icons/pi";
@@ -109,6 +110,7 @@ export default class Home extends Component {
             </Link>
           </div>
           <div className="col-md-4">
+          <Link  className="link to Jobs" to="/Learn">
             <div className="card text-bg-dark h-90" style={{ cursor: 'pointer', boxShadow: '5px 5px 5px black' }}>
               <img src="https://cdn.siasat.com/wp-content/uploads/2021/10/photo_2021-10-27_20-29-34.jpg" className="card-img" alt="..." />
               <div className="card-img-overlay">
@@ -116,8 +118,10 @@ export default class Home extends Component {
                 <p className="card-text"><strong>Explore</strong><br />Diverse career</p>
               </div>
             </div>
+            </Link>
           </div>
           <div className="col-md-4">
+          <Link  className="link to Practice" to="/Practice">
             <div className="card text-bg-dark h-90" style={{ cursor: 'pointer', boxShadow: '5px 5px 5px black' }}>
               <img src="https://c0.wallpaperflare.com/preview/498/976/47/success-stairs-board-drawing.jpg" className="card-img" alt="..." />
               <div className="card-img-overlay">
@@ -125,10 +129,14 @@ export default class Home extends Component {
                 <p className="card-text"><strong>Refine</strong><br />Skill Daily</p>
               </div>
             </div>
+            </Link>
           </div>
+          
         </div>
         <div className="row justify-content-around mt-4">
+      
           <div className="col-md-6">
+          <Link  className="link to Mentorship" to="/Mentorship">
             <div className="card text-bg-dark h-90" style={{ cursor: 'pointer', boxShadow: '5px 5px 5px black' }}>
               <img src="https://c0.wallpaperflare.com/preview/805/197/218/hikers-mentor-help-climbing.jpg" className="card-img" alt="..." />
               <div className="card-img-overlay">
@@ -136,8 +144,10 @@ export default class Home extends Component {
                 <p className="card-text"><strong>Guidance</strong><br />From Top Mentor</p>
               </div>
             </div>
+            </Link>
           </div>
           <div className="col-md-6">
+          <Link  className="link to compete" to="/Compete">
             <div className="card text-bg-dark h-90" style={{ cursor: 'pointer', boxShadow: '5px 5px 5px black' }}>
               <img src="https://c1.wallpaperflare.com/preview/612/780/946/shaking-hands-handshake-teamwork-staff.jpg" className="card-img" alt="..." />
               <div className="card-img-overlay">
@@ -145,8 +155,10 @@ export default class Home extends Component {
                 <p className="card-text"><strong>Battle</strong><br />For Excellence</p>
               </div>
             </div>
+            </Link>
           </div>
         </div>
+        
       </div>
 
         
@@ -234,7 +246,7 @@ export default class Home extends Component {
         <p className="card-text"></p>
         <p className="card-text">Select from a wide range of courses to upskill and advance your career!</p>
         <p>50+ Courses   |   Certificate    |    Projects & Assignment </p>
-        <a to="#" className="btn btn-primary" style={{borderRadius:'50px',fontSize:'2rem'}}>Explore Courses <FaArrowPointer /></a>
+        <Link to="/Learn" className="btn btn-primary" style={{borderRadius:'50px',fontSize:'2rem'}}>Explore Courses <FaArrowPointer /></Link>
       </div>
     </div>
   </div>

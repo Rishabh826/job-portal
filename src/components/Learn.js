@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 export default class Learn extends Component {
   constructor(props) {
     super(props);
@@ -273,12 +273,12 @@ export default class Learn extends Component {
             </div>
         </div>
         <div className="row-4" style={{backgroundImage:'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkK13Svk746bCweGUxGyxYr6M_ct5tdESN962DBOwe_g&s)',borderRadius:'100px',marginTop:'6rem',padding:'1.5rem'}}>
-  <a href="/" className="btn" style={{ borderRadius: '100px', display: 'block', padding: '0', background: 'none', border: 'none' }}>
+  <Link  to="/Practice" className="btn" style={{ borderRadius: '100px', display: 'block', padding: '0', background: 'none', border: 'none' }}>
     <div className="subcontainer" style={{marginLeft:'10rem',wordSpacing:'10px'}}>
       <h1><strong>Let's <span  style={{color:'green'}}>Practice</span>  What You've Learned</strong></h1>
       <p>Master your concepts with level-wise tests, followed by full-length mock exams!</p>
     </div>
-  </a>
+  </Link>
 </div>
 
 <div className="footer mt-5" style={{ background: 'linear-gradient(30deg,rgb(13,153,181),rgb(8,210,250))',color:'white',borderRadius:'10px',padding:'10px'}}>

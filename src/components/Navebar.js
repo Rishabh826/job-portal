@@ -40,12 +40,12 @@ export default class home extends Component {
               <p style={{ color: 'white' }}>Jobs</p>
             </Link>
 
-            <Link className="nav-link me-4" to="/Ioperson">
+            <Link className="nav-link me-4" to="/Compete">
               <FaRankingStar style={{ color: 'white', fontSize: '30px' }} />
               <p style={{ color: 'white' }}>Compete</p>
             </Link>
 
-            <Link className="nav-link me-4" to="/Ioperson">
+            <Link className="nav-link me-4" to="/Mentorship">
               <HiLightBulb style={{ color: 'white', fontSize: '30px' }} />
               <p style={{ color: 'white' }}>Mentorship</p>
             </Link>
