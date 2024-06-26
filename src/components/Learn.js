@@ -45,8 +45,8 @@ export default class Learn extends Component {
   }
   render() {
     return (
-      <div className="container-fluid">
- <div style={{backgroundImage:'url(https://img.freepik.com/premium-photo/blank-yellow-sticky-note-pencil-navy-blue-table-background_7189-3543.jpg)', backgroundSize: 'cover', backgroundPosition: 'center',height:'90vh'}}>
+      <div className="container-fluid" style={{paddingTop:'2rem'}}>
+ <div style={{backgroundImage:'url(https://i.pinimg.com/originals/c7/d3/2c/c7d32c03f4a3adbf6c26eb750ccfaacd.gif)', backgroundSize: 'cover', backgroundPosition: 'center',height:'90vh'}}>
         <div className="container">
           <div className="row justify-content-end">
           <div className="col-md-6 text-end" style={{marginTop:'10rem',color:'white'}}>
