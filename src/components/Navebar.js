@@ -82,7 +82,7 @@ const Navebar = () => {
                   <Link className="nav-link" to="/Postajob">For Employers</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="#">Careers</Link>
+                  <Link className="nav-link" to="/jobs">Careers</Link>
                 </li>
                 <li className="nav-item">
                   <div className="dropdown">
@@ -114,16 +114,16 @@ const Navebar = () => {
                   <Link className="nav-link" to="#">Job-Hunting Brand Ambassador Program</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="#">About Us</Link>
+                  <Link className="nav-link" to="/aboutus">About Us</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="#">Job-Hunting Talent Meet 2024</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/">Online Quizzes Festival</Link>
+                  <Link className="nav-link" to="/quizzesfestival">Online Quizzes Festival</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="#">Online Hackathon Festival</Link>
+                  <Link className="nav-link" to="/onlinehackathons">Online Hackathon Festival</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="#">Partner with Us</Link>

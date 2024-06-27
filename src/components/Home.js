@@ -408,7 +408,7 @@ export default class Home extends Component {
                   <div className="card" style={{ width: '13rem' ,marginLeft:'2rem',backgroundImage:'url(https://wallpapers-hub.art/wallpaper-images/398133.jpg)',height:'15rem'}}>
                     <div className="card-body">
                       <h3 className="card-title">Hackathon</h3>
-                      <span><a to="#" className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'7rem' }}>Enroll now</a></span>
+                      <span><a to="/onlinehackathons" className="btn btn-primary" style={{ borderRadius: '100px',marginTop:'7rem' }}>Enroll now</a></span>
                     
                     </div>
                   </div>

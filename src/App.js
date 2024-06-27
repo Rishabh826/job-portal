@@ -11,8 +11,11 @@ import Practice from './components/Practice';
 import Compete from './components/Compete';
 import Mentorship from './components/Mentorship';
 import Jobs from './components/Jobs';
+import Aboutus from './components/Aboutus';
 import Privacypolicy from './components/Privacypolicy';
 import TermsConditions from './components/TermsConditions';
+import Hackathons from './components/Hackathons';
+import QuizzesFestivals from './components/QuizzesFestivals';
 const NavebarWithConditionalRender = () => {
   const location = useLocation();
   const shouldRenderNavebar = location.pathname !== '/Postajob'; // Check if current route is not Postajob
@@ -40,6 +43,9 @@ const App = () => {
           <Route path="/Mentorship" element={<Mentorship />} />
           <Route exact path="/PrivacyPolicy" element={<Privacypolicy />} />
           <Route exact path="/Termscondition" element={<TermsConditions />} />
+          <Route path="/aboutus" element={<Aboutus />} />
+          <Route path="/onlinehackathons" element={<Hackathons />} />
+          <Route path="/quizzesfestival" element={<QuizzesFestivals />} />
         </Routes>
       </HashRouter>
     </div>
