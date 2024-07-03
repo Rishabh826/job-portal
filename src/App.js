@@ -16,6 +16,7 @@ import Privacypolicy from './components/Privacypolicy';
 import TermsConditions from './components/TermsConditions';
 import Hackathons from './components/Hackathons';
 import QuizzesFestivals from './components/QuizzesFestivals';
+import Studyroom from './components/Studyroom';
 const NavebarWithConditionalRender = () => {
   const location = useLocation();
   const shouldRenderNavebar = location.pathname !== '/Postajob'; // Check if current route is not Postajob
@@ -31,6 +32,7 @@ const App = () => {
         
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/studyroom" element={<Studyroom />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/Postajob" element={<Postajob />} />
           <Route path="/Ioperson" element={<Login />} />

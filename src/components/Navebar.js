@@ -129,7 +129,7 @@ const Navebar = () => {
                   <Link className="nav-link" to="#">Partner with Us</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="#">Partners</Link>
+                  <Link className="nav-link" to="/studyroom">Study Room</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/ContactUs">FAQs</Link>
