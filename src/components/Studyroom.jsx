@@ -90,7 +90,7 @@ const Studyroom = () => {
           <div className="col-md-3">
             <div className="card mb-3">
               <img
-                src="https://example.com/resource-1.jpg"
+                src="https://i.pinimg.com/originals/73/bd/80/73bd8000bfdbb42e6c480a54fcdb0080.gif"
                 className="card-img-top"
                 alt="Resource 1"
               />
@@ -108,7 +108,7 @@ const Studyroom = () => {
           <div className="col-md-3">
             <div className="card mb-3">
               <img
-                src="https://example.com/resource-2.jpg"
+                src="https://yourartpath.com/wp-content/uploads/2018/10/gif-min.png"
                 className="card-img-top"
                 alt="Resource 2"
               />
@@ -126,7 +126,7 @@ const Studyroom = () => {
           <div className="col-md-3">
             <div className="card mb-3">
               <img
-                src="https://example.com/resource-3.jpg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMGC5KgsrzBRK66BGS9GkXTqjb5MRazW0zIw&s"
                 className="card-img-top"
                 alt="Resource 3"
               />
@@ -152,7 +152,7 @@ const Studyroom = () => {
           <div className="col-md-3">
             <div className="card mb-3">
               <img
-                src="https://example.com/tool-1.jpg"
+                src="https://cdn.dribbble.com/users/25884/screenshots/2401179/pomodoro10.gif"
                 className="card-img-top"
                 alt="Tool 1"
               />
@@ -170,7 +170,7 @@ const Studyroom = () => {
           <div className="col-md-3">
             <div className="card mb-3">
               <img
-                src="https://example.com/tool-2.jpg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV6hUk7VuvUj5LxGCbWznTEKzSDKKeBQj8f67BE4KeHPQyliwVGw7eYLlFT7rAttlXs78&usqp=CAU"
                 className="card-img-top"
                 alt="Tool 2"
               />
@@ -188,7 +188,7 @@ const Studyroom = () => {
           <div className="col-md-3">
             <div className="card mb-3">
               <img
-                src="https://example.com/tool-3.jpg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQetr1oMvfUqDfOupxMcriHGa4KvBWTEz3XTw&s"
                 className="card-img-top"
                 alt="Tool 3"
               />
@@ -216,7 +216,7 @@ const Studyroom = () => {
           <div className="col-md-3">
             <div className="card mb-3">
               <img
-                src="https://example.com/atmosphere-1.jpg"
+                src="https://i.pinimg.com/originals/9d/93/5c/9d935c5a5e2dcc9f8a1f7b4e21abba57.gif"
                 className="card-img-top"
                 alt="Atmosphere 1"
               />
@@ -234,7 +234,7 @@ const Studyroom = () => {
           <div className="col-md-3">
             <div className="card mb-3">
               <img
-                src="https://example.com/atmosphere-2.jpg"
+                src="https://i.pinimg.com/originals/c1/10/48/c1104815c8a8445cb8223a5ef566cfd9.gif"
                 className="card-img-top"
                 alt="Atmosphere 2"
               />
@@ -253,7 +253,7 @@ const Studyroom = () => {
           <div className="col-md-3">
             <div className="card mb-3">
               <img
-                src="https://example.com/atmosphere-3.jpg"
+                src="https://img.pikbest.com/video/cover/2021-12-09/E9328501-AD97-0671-8795-07150D58A90F.gif!sw800"
                 className="card-img-top"
                 alt="Atmosphere 3"
               />
