@@ -92,7 +92,7 @@ const Studyroom = () => {
               <img
                 src="https://i.pinimg.com/originals/73/bd/80/73bd8000bfdbb42e6c480a54fcdb0080.gif"
                 className="card-img-top"
-                alt="Resource 1"
+                alt="Resource 1" style={{height:'200px'}}
               />
               <div className="card-body">
                 <h5 className="card-title">E-books</h5>
@@ -110,7 +110,7 @@ const Studyroom = () => {
               <img
                 src="https://yourartpath.com/wp-content/uploads/2018/10/gif-min.png"
                 className="card-img-top"
-                alt="Resource 2"
+                alt="Resource 2" style={{height:'220px'}}
               />
               <div className="card-body">
                 <h5 className="card-title">Video Tutorials</h5>
@@ -128,7 +128,7 @@ const Studyroom = () => {
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMGC5KgsrzBRK66BGS9GkXTqjb5MRazW0zIw&s"
                 className="card-img-top"
-                alt="Resource 3"
+                alt="Resource 3" 
               />
               <div className="card-body">
                 <h5 className="card-title">Practice Quizzes</h5>
@@ -145,7 +145,7 @@ const Studyroom = () => {
       </div>
 
       {/* Tools Section */}
-      <div className="container" style={{ marginTop: '3rem' }}>
+      <div className="container" style={{ marginTop: '3rem' ,backgroundImage:'url(https://t4.ftcdn.net/jpg/05/79/54/53/360_F_579545387_6JuKZXKyBuvrGTVxcCIXPZnE5cr41vC9.jpg)',color:'white'}}>
         <h2 className="text-center">Study Tools</h2>
         <p className="text-center">Utilize these tools to aid your study sessions.</p>
         <div className="row justify-content-center">
@@ -154,7 +154,7 @@ const Studyroom = () => {
               <img
                 src="https://cdn.dribbble.com/users/25884/screenshots/2401179/pomodoro10.gif"
                 className="card-img-top"
-                alt="Tool 1"
+                alt="Tool 1" style={{height:'250px'}}
               />
               <div className="card-body">
                 <h5 className="card-title">Pomodoro Timer</h5>
@@ -172,7 +172,7 @@ const Studyroom = () => {
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV6hUk7VuvUj5LxGCbWznTEKzSDKKeBQj8f67BE4KeHPQyliwVGw7eYLlFT7rAttlXs78&usqp=CAU"
                 className="card-img-top"
-                alt="Tool 2"
+                alt="Tool 2" style={{height:'250px'}}
               />
               <div className="card-body">
                 <h5 className="card-title">Flashcards</h5>
@@ -218,14 +218,14 @@ const Studyroom = () => {
               <img
                 src="https://i.pinimg.com/originals/9d/93/5c/9d935c5a5e2dcc9f8a1f7b4e21abba57.gif"
                 className="card-img-top"
-                alt="Atmosphere 1"
+                alt="Atmosphere 1" style={{height:'255px'}}
               />
               <div className="card-body">
                 <h5 className="card-title">Calming Music</h5>
                 <p className="card-text">
                   Listen to soothing music to enhance focus and relaxation.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a href="https://www.youtube.com/watch?v=HCWvgoTfUjg&t=1031s" className="btn btn-primary">
                   Play Music
                 </a>
               </div>
@@ -254,8 +254,8 @@ const Studyroom = () => {
             <div className="card mb-3">
               <img
                 src="https://img.pikbest.com/video/cover/2021-12-09/E9328501-AD97-0671-8795-07150D58A90F.gif!sw800"
-                className="card-img-top"
-                alt="Atmosphere 3"
+                className="card-img-top" 
+                alt="Atmosphere 3" style={{height:'255px'}}
               />
               <div className="card-body">
                 <h5 className="card-title">Ambient Lighting</h5>

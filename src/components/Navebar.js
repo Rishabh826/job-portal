@@ -135,7 +135,7 @@ const Navebar = () => {
                   <Link className="nav-link" to="/ContactUs">FAQs</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/">Testimonials</Link>
+                  <Link className="nav-link" to="/Testimonials">Testimonials</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/">Pricing</Link>
